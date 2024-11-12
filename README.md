@@ -1,1 +1,0 @@
-# Jonathan-Kopelman-Magshimim-HW1

@@ -105,13 +105,13 @@ void printQueue(Queue* q)
 
 int dequeue(Queue* q)
 {
-
+	int element = q->elements[0];
 	for (int i = 0; i < q->count - 1; i++)
 	{
 		q->elements[i] = q->elements[i + 1];
 	}
 	q->count--;
-	return q->elements[0];
+	return element;
 }
 
 bool isEmpty(Queue* s)
